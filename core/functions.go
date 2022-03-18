@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/udp"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/net"
+	"github.com/jaskon139/xray-core/common/net/cnc"
+	"github.com/jaskon139/xray-core/features/routing"
+	"github.com/jaskon139/xray-core/transport/internet/udp"
 )
 
 // CreateObject creates a new object based on the given Xray instance and config. The Xray instance may be nil.

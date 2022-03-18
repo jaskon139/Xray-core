@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/net/dns/dnsmessage"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	dns_feature "github.com/xtls/xray-core/features/dns"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/errors"
+	"github.com/jaskon139/xray-core/common/net"
+	dns_feature "github.com/jaskon139/xray-core/features/dns"
 )
 
 // Fqdn normalize domain make sure it ends with '.'

@@ -6,11 +6,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
-	. "github.com/xtls/xray-core/proxy/vmess/encoding"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/buf"
+	"github.com/jaskon139/xray-core/common/protocol"
+	"github.com/jaskon139/xray-core/common/uuid"
+	. "github.com/jaskon139/xray-core/proxy/vmess/encoding"
 )
 
 func TestSwitchAccount(t *testing.T) {

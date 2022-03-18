@@ -1,24 +1,24 @@
 package dokodemo
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/jaskon139/xray-core/common/errors/errorgen
 
 import (
 	"context"
 	"sync/atomic"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/buf"
+	"github.com/jaskon139/xray-core/common/log"
+	"github.com/jaskon139/xray-core/common/net"
+	"github.com/jaskon139/xray-core/common/protocol"
+	"github.com/jaskon139/xray-core/common/session"
+	"github.com/jaskon139/xray-core/common/signal"
+	"github.com/jaskon139/xray-core/common/task"
+	"github.com/jaskon139/xray-core/core"
+	"github.com/jaskon139/xray-core/features/policy"
+	"github.com/jaskon139/xray-core/features/routing"
+	"github.com/jaskon139/xray-core/transport/internet/stat"
 )
 
 func init() {

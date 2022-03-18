@@ -12,11 +12,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/buf"
+	"github.com/jaskon139/xray-core/infra/conf"
+	"github.com/jaskon139/xray-core/infra/conf/serial"
+	"github.com/jaskon139/xray-core/main/commands/base"
 )
 
 var cmdConvert = &base.Command{

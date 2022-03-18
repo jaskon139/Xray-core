@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/net/dns/dnsmessage"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/buf"
+	"github.com/jaskon139/xray-core/common/serial"
 )
 
 func PackMessage(msg *dnsmessage.Message) (*buf.Buffer, error) {

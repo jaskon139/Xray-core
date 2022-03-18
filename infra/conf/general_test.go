@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/infra/conf"
+	"github.com/jaskon139/xray-core/common"
+	. "github.com/jaskon139/xray-core/infra/conf"
 )
 
 func loadJSON(creator func() Buildable) func(string) (proto.Message, error) {

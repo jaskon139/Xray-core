@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/mtproto"
+	"github.com/jaskon139/xray-core/common/protocol"
+	"github.com/jaskon139/xray-core/common/serial"
+	"github.com/jaskon139/xray-core/proxy/mtproto"
 )
 
 type MTProtoAccount struct {

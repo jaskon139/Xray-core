@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/net"
+	"github.com/jaskon139/xray-core/common/session"
+	"github.com/jaskon139/xray-core/core"
+	"github.com/jaskon139/xray-core/features/dns"
 )
 
 // newFakeDNSSniffer Create a Fake DNS metadata sniffer

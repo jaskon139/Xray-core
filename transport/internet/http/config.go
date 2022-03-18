@@ -1,9 +1,9 @@
 package http
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/dice"
+	"github.com/jaskon139/xray-core/transport/internet"
 )
 
 const protocolName = "http"

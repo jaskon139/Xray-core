@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/uuid"
+	"github.com/jaskon139/xray-core/common"
+	. "github.com/jaskon139/xray-core/common/uuid"
 )
 
 func TestParseBytes(t *testing.T) {

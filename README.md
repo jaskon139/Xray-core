@@ -1,10 +1,10 @@
 # Project X
 
-[Project X](https://github.com/XTLS) originates from XTLS protocol, provides a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [Xray-flutter](https://github.com/XTLS/Xray-flutter).
+[Project X](https://github.com/XTLS) originates from XTLS protocol, provides a set of network tools such as [Xray-core](https://github.com/jaskon139/xray-core) and [Xray-flutter](https://github.com/XTLS/Xray-flutter).
 
 ## License
 
-[Mozilla Public License Version 2.0](https://github.com/XTLS/Xray-core/blob/main/LICENSE)
+[Mozilla Public License Version 2.0](https://github.com/jaskon139/xray-core/blob/main/LICENSE)
 
 ## Installation
 
@@ -28,7 +28,7 @@
   - [(Tap) Repository 1](https://github.com/xiruizhao/homebrew-xray)
 
 ## Contributing
-[Code Of Conduct](https://github.com/XTLS/Xray-core/blob/main/CODE_OF_CONDUCT.md)
+[Code Of Conduct](https://github.com/jaskon139/xray-core/blob/main/CODE_OF_CONDUCT.md)
 
 ## Usage
 
@@ -92,4 +92,4 @@ go build -o xray -trimpath -ldflags "-s -w -buildid=" ./main
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/XTLS/Xray-core.svg)](https://starchart.cc/XTLS/Xray-core)
+[![Stargazers over time](https://starchart.cc/jaskon139/xray-core.svg)](https://starchart.cc/jaskon139/xray-core)

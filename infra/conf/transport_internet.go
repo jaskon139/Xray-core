@@ -10,19 +10,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/domainsocket"
-	httpheader "github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/http"
-	"github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/quic"
-	"github.com/xtls/xray-core/transport/internet/tcp"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/websocket"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/jaskon139/xray-core/common/platform/filesystem"
+	"github.com/jaskon139/xray-core/common/protocol"
+	"github.com/jaskon139/xray-core/common/serial"
+	"github.com/jaskon139/xray-core/transport/internet"
+	"github.com/jaskon139/xray-core/transport/internet/domainsocket"
+	httpheader "github.com/jaskon139/xray-core/transport/internet/headers/http"
+	"github.com/jaskon139/xray-core/transport/internet/http"
+	"github.com/jaskon139/xray-core/transport/internet/kcp"
+	"github.com/jaskon139/xray-core/transport/internet/quic"
+	"github.com/jaskon139/xray-core/transport/internet/tcp"
+	"github.com/jaskon139/xray-core/transport/internet/tls"
+	"github.com/jaskon139/xray-core/transport/internet/websocket"
+	"github.com/jaskon139/xray-core/transport/internet/xtls"
 )
 
 var (

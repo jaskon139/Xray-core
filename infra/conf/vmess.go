@@ -6,12 +6,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/inbound"
-	"github.com/xtls/xray-core/proxy/vmess/outbound"
+	"github.com/jaskon139/xray-core/common/protocol"
+	"github.com/jaskon139/xray-core/common/serial"
+	"github.com/jaskon139/xray-core/common/uuid"
+	"github.com/jaskon139/xray-core/proxy/vmess"
+	"github.com/jaskon139/xray-core/proxy/vmess/inbound"
+	"github.com/jaskon139/xray-core/proxy/vmess/outbound"
 )
 
 type VMessAccount struct {

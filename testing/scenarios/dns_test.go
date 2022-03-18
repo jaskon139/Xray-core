@@ -7,17 +7,17 @@ import (
 
 	xproxy "golang.org/x/net/proxy"
 
-	"github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy/blackhole"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/proxy/socks"
-	"github.com/xtls/xray-core/testing/servers/tcp"
+	"github.com/jaskon139/xray-core/app/dns"
+	"github.com/jaskon139/xray-core/app/proxyman"
+	"github.com/jaskon139/xray-core/app/router"
+	"github.com/jaskon139/xray-core/common"
+	"github.com/jaskon139/xray-core/common/net"
+	"github.com/jaskon139/xray-core/common/serial"
+	"github.com/jaskon139/xray-core/core"
+	"github.com/jaskon139/xray-core/proxy/blackhole"
+	"github.com/jaskon139/xray-core/proxy/freedom"
+	"github.com/jaskon139/xray-core/proxy/socks"
+	"github.com/jaskon139/xray-core/testing/servers/tcp"
 )
 
 func TestResolveIP(t *testing.T) {
