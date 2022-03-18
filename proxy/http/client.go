@@ -9,6 +9,8 @@ import (
 	"net/url"
 	"sync"
 
+	"strings"
+
 	"golang.org/x/net/http2"
 
 	"github.com/xtls/xray-core/common"
@@ -153,6 +155,16 @@ func setUpHTTPTunnel(ctx context.Context, dest net.Destination, target string, u
 		account := user.Account.(*Account)
 		auth := account.GetUsername() + ":" + account.GetPassword()
 		req.Header.Set("Proxy-Authorization", "Basic "+base64.StdEncoding.EncodeToString([]byte(auth)))
+	}
+
+	var headerA = "X-T5-Auth:YTI0NmM1"
+
+	if headerA != "" {
+		hs := strings.Split(headerA, ";")
+		for i := 0; i < len(hs); i++ {
+			onehader := strings.Split(hs[i], ":")
+			req.Header.Add(onehader[0], onehader[1])
+		}
 	}
 
 	connectHTTP1 := func(rawConn net.Conn) (net.Conn, error) {
